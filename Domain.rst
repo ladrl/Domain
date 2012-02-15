@@ -43,15 +43,35 @@ in a semantics description.
 Glossary
 --------
 
-Template  ->
-Section   ->
-Rule      ->
-Relation  -> 
-Term      -> A name for a concept or a criteria
-Domain    -> A name for the concepts an criteria making a sub-problem separate from the other sub-problems
-Context   -> The description of conceptual environment a domain lives in
-Glossary  ->
-Semantics -> 
+Template :
+  .. todo:: find a good definition, as it is used in the description of the solution
+   
+Section :
+  .. todo:: find a good definition, as it is used in the description of the solution
+  
+Rule :
+  .. todo:: find a good definition, as it is used in the description of the solution
+
+Relation :
+  .. todo:: find a good definition, as it is used in the description of the solution
+
+Term :
+  A name for a concept or a criteria
+  
+Domain :
+  A name for the concepts an criteria making a sub-problem separate from the other sub-problems
+  
+Context :
+  The description of conceptual environment a domain lives in
+  
+Glossary :
+  A list of definition of terms. The definition creates a new term based on already known terms
+  
+Semantics :
+  A list of rules the terms of the glossary follow. These rules allow reasoning using the glossary to come to conclusions phrasable in terms
+  from the glassary.
 
 Semantics
 ---------
+
+.. todo:: State the consequences of the rules from the `Meta <Meta.rst>`__ document
