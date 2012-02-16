@@ -30,30 +30,29 @@ Problem
 
 Challenge
 *********
-Clearly identifying and describing concepts and structures necessary to split up a problem into composable sub-problems.
+Clearly identifying and describing the concepts and structures necessary to split up a problem into composable sub-problems.
    
 Solution
 ********
 Definition of a template with clearly defined sections and rules for the relations
 between these sections. The relations are stated as rules about terms and must facilitate the 
 description of the evolution of the domain out of its context. The terms introduced by the 
-description of the solution of the domain must be defined in a glossary and be set into relation
-in a semantics description.
+description of the solution of the domain must be defined in a glossary and be set into relation to 
+each other in a semantics description.
    
 Glossary
 --------
 
 Template :
-  .. todo:: find a good definition, as it is used in the description of the solution
+  A document containing the structure and the rules to describe a domain.
    
 Section :
-  .. todo:: find a good definition, as it is used in the description of the solution
+  The structuring element of the template. It has a title, a purpose and is filled with some content. This content must adhere to the rules 
+  stated for the section.
   
 Rule :
-  .. todo:: find a good definition, as it is used in the description of the solution
-
-Relation :
-  .. todo:: find a good definition, as it is used in the description of the solution
+  A set of constraints a section must fulfill. Each rule is formulated to ensure the evolution of the domain from 
+  section to section.
 
 Term :
   A name for a concept or a criteria
@@ -70,8 +69,24 @@ Glossary :
 Semantics :
   A list of rules the terms of the glossary follow. These rules allow reasoning using the glossary to come to conclusions phrasable in terms
   from the glassary.
+  
+Relation :
+  A description of a concept which allows to reason about a set of terms. The relation itself is a term, as defined in this glossary, but 
+  has the additional constraint of this term describing a set of terms.
 
 Semantics
 ---------
 
-.. todo:: State the consequences of the rules from the `Meta <Meta.rst>`__ document
+ - A template is made up from a serie of sections.
+ - Each section has an associated rule describing the constraints governing the section's content.
+ - The individual sections have a fixed purpose and they build upon the preceeding sections.
+ - Filling the sections builds a domain by defining its name, its context, its purpose in the form of a challange
+   and a solution, its terms and their relations.
+ - The final domain description contains the terms, the semantis and the evolution of the domain from its context which forms (hopefully) a complete model in
+   the readers mind.
+
+
+Annotations
+-----------
+
+As this is the domain description of domain, its inavoidable for it to be at least partly recursive.
