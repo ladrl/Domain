@@ -50,7 +50,8 @@ Rules for the description of a domain:
   b) terms from the context and the glossary can then be used to describe the solution.
   
  4. The definitions in the glossary must only relate to terms used in the context or in the glossary. The glossary can only define terms which are part of the solution
- 
+   ~~> Rule 4 contradicts Rule 2!!
+   
  5. The semantics must be described by using only terms from the glossary
  
 Rationale for the rules
